@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import Header from '../header'
 import WorksMain from './main'
-import Footer from '../footer'
 
 export default class Works extends Component {
   state ={

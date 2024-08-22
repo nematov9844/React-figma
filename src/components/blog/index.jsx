@@ -1,6 +1,4 @@
 import { Component } from "react";
-import Header from "../header";
-import Footer from "../footer";
 import BlogMain from "./main";
 
 export default class Blog extends Component {
