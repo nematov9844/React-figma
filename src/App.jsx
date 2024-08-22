@@ -1,11 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Blog from './components/Blog'; 
-import Works from './components/Works';
-import Contact from './components/contact';
-import Home from './components/Home';
-import Footer from './components/footer';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/header";
+import Blog from "./components/blog";
+import Works from "./components/works";
+import Contact from "./components/contact";
+import Home from "./components/home";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }
