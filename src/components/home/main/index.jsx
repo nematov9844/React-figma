@@ -2,7 +2,7 @@
 
 function Hero() {
     return (
-      <div className="flex flex-col-reverse p-3 md:px-5 max-w-[1440px] mx-auto md:flex-row text-black font-semibold w-full">
+      <div className="flex flex-col-reverse p-3 md:px-5 max-w-[1080px] mx-auto md:flex-row text-black font-semibold w-full">
         <div className="flex flex-col text-center md:text-left justify-center items-center md:items-start gap-4 md:w-1/2 h-[75vh]">
           <h1 className="text-3xl md:text-6xl font-bold ">Hi, I am John,</h1>
           <h1 className="text-3xl md:text-6xl font-bold ">Creative Technologist</h1>
@@ -17,7 +17,7 @@ function Hero() {
   }
   function Posts() {
     return (
-      <div className="px-3 mx-auto md:px-5 max-w-[1440px] py-3 flex flex-col gap-4 bg-[#EDF7FA] ">
+      <div className="px-3 mx-auto md:px-5 max-w-[1080px] py-3 flex flex-col gap-4 bg-[#EDF7FA] ">
         <div className="flex w-full justify-between ">
           <h1 className="text-2xl">Recent posts</h1>
           <p className="text-blue-600">View all</p>
@@ -39,16 +39,16 @@ function Hero() {
   }
   function Works() {
     return (
-      <div className="px-3 mx-auto md:px-5 max-w-[1440px] py-3 flex flex-col gap-4">
+      <div className="px-3 mx-auto md:px-5 max-w-[1080px] py-3 flex flex-col gap-4">
         <h1 className="text-3xl font-semibold">Featured works</h1>
         <div className="flex flex-col md:flex-row justify-center  gap-3">
-         <div className="w-full md:w-1/2">
+         <div className="w-full md:w-1/2 ">
            <img src="https://s3-alpha-sig.figma.com/img/1c6b/bc0b/e719e9d93c02a87ba51308ebb0297cdf?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jwhOgNOVt9PgsABMlm5Vv8Y5e8J8KqAK7hK--KwMQq9SHuGT3iyhoNntNF7HytxeUquYK8n1fNfYnoC7AKhuJ6jwBqRm5rTXp8vb3X77ee40hPpVvxuj8dQrIFZnG0O5kBgETVPaLEvQ-UWLYaYvSgmrjM-YX16FIGc5dHdlpfuvRxDaEYh1z-TnmcQ-BgWhyBVEl2KqkI7XL7sCnIvV5OGW8IRu20lQTtLq4tsbtCXF--t0nJGIhQN7Jvq0wY7Nc75rndD5mKh7wmCmVdNZHdgXTPDKnGdsLodXrrnG9gSw1v1r3u3JLWA~HnUnWXFTAE0suTwg6VoEmyQJMdswpw__" alt="" />
            </div>
          <div className="flex flex-col gap-4">
           <h1 className="text-3xl font-semibold">Designing Dashboards</h1>
           <p className="flex gap-4 text-xl items-center"><span className="text-base px-2 bg-black rounded-full text-white">2020</span> Dashboard</p>
-          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <p className="w-[90%] text-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
          </div>
         </div>
         <div className="hidden md:flex flex-col md:flex-row justify-center  gap-3">
@@ -58,7 +58,7 @@ function Hero() {
          <div className="flex flex-col gap-4">
           <h1 className="text-3xl font-semibold">Vibrant Portraits of 2020</h1>
           <p className="flex gap-4 text-xl items-center"><span className="text-base px-2 bg-black rounded-full text-white">2018</span> Illustration</p>
-          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <p className="w-[90%] text-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
          </div>
         </div>
         <div className="hidden md:flex flex-col md:flex-row justify-center  gap-3">
@@ -68,13 +68,16 @@ function Hero() {
          <div className="flex flex-col gap-4">
           <h1 className="text-3xl font-semibold">36 Days of Malayalam type</h1>
           <p className="flex gap-4 text-xl items-center"><span className="text-base px-2 bg-black rounded-full text-white">2018</span> Typography</p>
-          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <p className="w-[90%] text-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
          </div>
         </div>
       </div>
     )
   }
 
+
+  
+  
 function HomeMain() {
     return (
         <>
